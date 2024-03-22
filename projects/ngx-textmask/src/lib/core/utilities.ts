@@ -32,7 +32,7 @@ export function isString(value) {
 }
 
 export function isNumber(value) {
-  return typeof value === 'number' && (value === 0 || (value && !isNaN(value))
+  return typeof value === 'number' && (value === 0 || (value && !isNaN(value)))
 }
 
 export function isNil(value) {
