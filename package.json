@@ -1,5 +1,5 @@
 {
-  "name": "angular-ngx-textmask",
+  "name": "ngx-textmask",
   "version": "1.3.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "build-prod:lib": "ng build ngx-textmask --configuration production",
     "release": "standard-version",
-    "publish:lib": "npm run copy:readme && npm run copy:changelog && npm run copy:license && npm publish ./dist/ngx-textmask --access public",
+    "publish:lib": "npm run copy:readme && npm run copy:changelog && npm run copy:license && npm publish ./dist/ngx-textmask",
     "copy:readme": "cpx README.md dist/ngx-textmask",
     "copy:changelog": "cpx CHANGELOG.md dist/ngx-textmask",
     "copy:license": "cpx LICENSE dist/ngx-textmask",
