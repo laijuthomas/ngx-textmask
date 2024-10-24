@@ -2,9 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [1.2.2](https://github.com/laijuthomas/ngx-textmask/compare/v1.2.1...v1.2.2) (2024-10-24)
+### [1.3.0](https://github.com/laijuthomas/ngx-textmask/compare/v1.2.1...v1.2.2) (2024-10-24)
+### Features
 
-### [1.2.1](https://github.com/laijuthomas/ngx-textmask/compare/v1.1.0...v1.2.1) (2024-10-24)
+* **core:** update angular version to angular 18
+
+### [1.2.0](https://github.com/laijuthomas/ngx-textmask/compare/v1.1.0...v1.2.1) (2024-10-24)
+### Features
+
+* **core:** update angular version to angular 17
 
 ## 1.1.0 (2024-03-22)
 
