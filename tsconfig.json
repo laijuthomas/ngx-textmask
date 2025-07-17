@@ -15,13 +15,12 @@
     "sourceMap": true,
     "paths": {
       "ngx-textmask": [
-        // "dist/ngx-textmask"
         "projects/ngx-textmask/src/public-api"
       ]
     },
     "declaration": false,
     "experimentalDecorators": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
