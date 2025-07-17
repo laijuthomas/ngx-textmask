@@ -17,6 +17,7 @@ import { MaskedInputDirective } from 'ngx-textmask';
 @Component({
   selector: 'app',
   imports: [
+    FormsModule,
     MaskedInputDirective
   ],
   template: `
