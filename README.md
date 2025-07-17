@@ -2,33 +2,23 @@
 
 ## Getting started
 
-First, install it.
+First, install using below command.
 
 ```bash
 npm i ngx-textmask --save
 ```
-
-Then, import it into your `@NgModule`:
+Then, use it in your component:
 
 ```typescript
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { TextMaskModule } from 'ngx-textmask';
+import { MaskedInputDirective } from 'ngx-textmask';
 
-@NgModule({
-  imports: [
-    FormsModule,
-    TextMaskModule
-  ],
-  declarations: []
-})
-export class MyModule {}
-```
-
-Then, use it in your component:
-```typescript
 @Component({
   selector: 'app',
+  imports: [
+    MaskedInputDirective
+  ],
   template: `
     <input [textMask]="{mask: mask}" [(ngModel)]="myModel" type="text"/>
   `
