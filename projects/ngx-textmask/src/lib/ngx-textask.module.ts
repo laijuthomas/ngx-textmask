@@ -28,15 +28,16 @@ function _isAndroid(): boolean {
 }
 
 @Directive({
-  host: {
-    '(input)': '_handleInput($event.target.value)',
-    '(blur)': 'onTouched()',
-    '(compositionstart)': '_compositionStart()',
-    '(compositionend)': '_compositionEnd($event.target.value)'
-  },
-  selector: '[textMask]',
-  exportAs: 'textMask',
-  providers: [MASKEDINPUT_VALUE_ACCESSOR]
+    host: {
+        '(input)': '_handleInput($event.target.value)',
+        '(blur)': 'onTouched()',
+        '(compositionstart)': '_compositionStart()',
+        '(compositionend)': '_compositionEnd($event.target.value)'
+    },
+    selector: '[textMask]',
+    exportAs: 'textMask',
+    providers: [MASKEDINPUT_VALUE_ACCESSOR],
+    standalone: false
 })
 export class MaskedInputDirective implements ControlValueAccessor, OnChanges {
   @Input('textMask') textMaskConfig: TextMaskConfig = {
