@@ -1,2 +1,2 @@
-export const placeholderChar = '_'
-export const strFunction = 'function'
+export const placeholderChar = '_';
+export const strFunction = 'function';

@@ -2,4 +2,4 @@
  * Public API Surface of ngx-textmask
  */
 
-export * from './lib/ngx-textask.module';
+export * from './lib/angular2TextMask';
