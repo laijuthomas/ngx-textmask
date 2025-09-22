@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/laijuthomas/ngx-textmask/compare/v1.4.0...v1.5.0) (2025-09-22)
+
+
+### Features
+
+* **core:** add conformToMask in public api ([1ba4092](https://github.com/laijuthomas/ngx-textmask/commit/1ba409286ef1b1b34f4de942183e213c49c24e72))
+
 ## [1.4.0](https://github.com/laijuthomas/ngx-textmask/compare/v1.2.2...v1.4.0) (2025-07-17)
 
 
