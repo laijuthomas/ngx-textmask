@@ -41,11 +41,11 @@
     "@angular/compiler-cli": "^21.2.25",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@typescript-eslint/eslint-plugin": "^7.2.0",
-    "@typescript-eslint/parser": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.72.0",
+    "@typescript-eslint/parser": "^8.72.0",
     "coveralls": "^3.1.0",
     "cpx": "^1.5.0",
-    "eslint": "^8.57.0",
+    "eslint": "^10.13.0",
     "ng-packagr": "^21.2.7",
     "typescript": "~5.9.3"
   }
