@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 import { MaskedInputDirective } from 'ngx-textmask';
@@ -7,6 +7,7 @@ import { MaskedInputDirective } from 'ngx-textmask';
   selector: 'app-root',
   imports: [RouterOutlet, MaskedInputDirective],
   templateUrl: './app.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './app.scss'
 })
 export class App {
