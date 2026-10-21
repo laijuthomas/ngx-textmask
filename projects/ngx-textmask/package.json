@@ -1,6 +1,6 @@
 {
   "name": "ngx-textmask",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Angular directive for input text masking",
   "author": "Laiju Thomas <iamlaijuthomas@gmail.com>",
   "repository": "https://github.com/laijuthomas/ngx-textmask",
@@ -11,8 +11,8 @@
     "url": "https://github.com/laijuthomas/ngx-textmask/issues"
   },
   "peerDependencies": {
-    "@angular/common": ">=19.0.0 <21.0.0",
-    "@angular/core": ">=19.0.0 <21.0.0"
+    "@angular/common": ">=19.0.0 <22.0.0",
+    "@angular/core": ">=19.0.0 <22.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
@@ -24,6 +24,7 @@
     "angular 18",
     "angular 19",
     "angular 20",
+    "angular 21",
     "standalone",
     "ng2",
     "angular2 component",
