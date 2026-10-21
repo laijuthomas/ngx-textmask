@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/laijuthomas/ngx-textmask/compare/v1.6.0...v1.7.0) (2026-10-21)
+
+
+### Features
+
+* **core:** update angular v22 ([4c079ac](https://github.com/laijuthomas/ngx-textmask/commit/4c079ac75061257deccce1e7254745ecf9485f45))
+
 ## [1.6.0](https://github.com/laijuthomas/ngx-textmask/compare/v1.5.0...v1.6.0) (2026-10-21)
 
 
