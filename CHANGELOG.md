@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/laijuthomas/ngx-textmask/compare/v1.5.0...v1.6.0) (2026-10-21)
+
+
+### Features
+
+* **core:** update eslint deps and support angular v21 ([324d1f4](https://github.com/laijuthomas/ngx-textmask/commit/324d1f441d048dc6764ece39561b182bba651920))
+* **core:** update version ([566c995](https://github.com/laijuthomas/ngx-textmask/commit/566c99523edf17a043ef17d4835cfcd143de2d6a))
+
 ## [1.5.0](https://github.com/laijuthomas/ngx-textmask/compare/v1.4.0...v1.5.0) (2025-09-22)
 
 
